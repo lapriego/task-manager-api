@@ -5,6 +5,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
 
-  attr_accessor :name       
-    validates_presence_of :name
+  # attr_accessor :name       
+  #   validates_presence_of :name
 end
